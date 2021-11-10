@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/raro-objeto-al-final-del-sistema-solar-portada.jpg);
+    }
+
+.baner {
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    padding: 25px;
+    
+}
+.titulobaner {
+    font-size: 50px;
+    
+}
+.parte2{
+    justify-content: space-around;
+    
+}
+
+
+
+.partenombre{
+    display: flex;
+    justify-content: center;
+
+}
+
+.parteapellido{
+    display: flex;
+    justify-content: center;
+
+}
+
+.nombre{
+    
+    
+    font-size: 20px;
+    color: yellowgreen;
+    padding-left: 0;
+   
+}
+.cuadronombre{
+    display: flex;
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 30px;
+    width: 100px;
+    height: 50px;
+    
+
+
+}
+
+.apellido{
+    
+    font-size: 20px;
+    color: yellowgreen;
+    padding-left: 0;
+   
+}
+.cuadroapellido{
+    display: flex;
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 30px;
+    width: 100px;
+    height: 50px;
+    }
+.parte3 {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    }
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+     color: yellowgreen;
+
+
+}
+.cuadros {
+    
+    padding-left: 70px;
+    padding-top: 30px;
+   
+    
+}
+
+
+.titulo {
+    font-size: 20px;
+    color: yellowgreen;
+}
+
+label {
+    font-size: 20px;
+}
+
+.numeroi{ 
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+.titulonumeroi{
+    font-size: 20px;
+    color: yellowgreen;
+    padding-left: 0;
+}
+.cajanumeroi { 
+    display: flex;
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 30px;
+    width: 100px;
+    height: 50px;
+}
+
+.correo{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+.tcorreo {font-size: 20px;
+    color: yellowgreen;
+    padding-left: 0;
+
+
+}
+.ccorreo {
+    display: flex;
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 30px;
+    width: 100px;
+    height: 50px;
+
+} 
+
+.comentario{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+.tcomentario {
+    font-size: 20px;
+    color: yellowgreen;
+    padding-left: 0;
+
+
+}
+.ccomentario {
+    display: flex;
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 30px;
+    width: 100px;
+    height: 50px;
+
+
+} 
+.contenedor{ 
+    display: flex;
+    justify-content: center ;
+    padding-top: 50px;
+    
+    
+
+}
+
+.boton {
+    
+    height: 250px;
+    width: 600px;
+    color: red;
+    border-radius: .5em;
+    cursor: pointer;;
+    
+    
+}
+
+.boton:hover {
+    background-color: red; 
+} 
+
+.lex {
+    font-size: 130px;
+    text-align: center;
+    line-height: 1px;
+}
