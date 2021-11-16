@@ -7,12 +7,14 @@ body{
 .baner {
     height: 100px;
     width: 100%;
-    background-color: aqua;
+    background-image: url(../img/14130.jpg);
     padding: 25px;
+    
     
 }
 .titulobaner {
     font-size: 50px;
+    color: darkgray;
     
 }
 .parte2{
@@ -24,13 +26,16 @@ body{
 
 .partenombre{
     display: flex;
-    justify-content: center;
+    justify-content:left;
+    padding-left: 30px;
 
 }
 
 .parteapellido{
     display: flex;
-    justify-content: center;
+    justify-content:left;
+    padding-left: 30px;
+
 
 }
 
@@ -53,6 +58,26 @@ body{
 
 
 }
+.cuadronombre:hover {
+    
+    
+    border-radius: .5em;
+    
+    background-image: url(../img/nombre.jpg) ;
+    padding-left: 700px;
+    height: 400px;
+    padding-top: 0px;
+}
+.cuadroapellido:hover {
+    
+    
+    border-radius: .5em;
+    
+    background-image: url(../img/apellido.jpg) ;
+    padding-left: 700px;
+    height: 400px;
+    padding-top: 0px;
+}
 
 .apellido{
     
@@ -71,8 +96,9 @@ body{
     }
 .parte3 {
     display: flex;
-    justify-content: space-around;
-    justify-content: center;
+    justify-content:left;
+    padding-left: 30px;
+
     }
 
 label {
@@ -89,11 +115,25 @@ label {
    
     
 }
+.cuadros:hover{
+
+    
+    
+    
+    border-radius: .5em;
+        
+    background-image: url(../img/cuadros.jpg) ;
+    padding-left: 700px;
+    height: 400px;
+    padding-top: 0px;
+}
+
 
 
 .titulo {
     font-size: 20px;
     color: yellowgreen;
+
 }
 
 label {
@@ -104,6 +144,9 @@ label {
     display: flex;
     justify-content: space-around;
     justify-content: center;
+    justify-content:left;
+    padding-left: 30px;
+
 
 }
 .titulonumeroi{
@@ -120,15 +163,27 @@ label {
     height: 50px;
 }
 
+.cajanumeroi:hover{
+    border-radius: .5em;
+        
+        background-image: url(../img/identificacion.jpg) ;
+        padding-left: 700px;
+        height: 400px;
+        padding-top: 0px;
+
+}
+
 .correo{
     display: flex;
-    justify-content: space-around;
-    justify-content: center;
+    justify-content:left;
+    padding-left: 30px;
+
 
 }
 .tcorreo {font-size: 20px;
     color: yellowgreen;
     padding-left: 0;
+    
 
 
 }
@@ -141,11 +196,21 @@ label {
     height: 50px;
 
 } 
+.ccorreo:hover{
+    border-radius: .5em;
+        
+        background-image: url(../img/correo.jpg) ;
+        padding-left: 700px;
+        height: 400px;
+        padding-top: 0px;
+
+}
 
 .comentario{
     display: flex;
-    justify-content: space-around;
-    justify-content: center;
+    justify-content:left;
+    padding-left: 30px;
+
 
 }
 .tcomentario {
@@ -164,7 +229,16 @@ label {
     height: 50px;
 
 
-} 
+}
+.ccomentario:hover{
+    border-radius: .5em;
+        
+        background-image: url(../img/come.jpg) ;
+        padding-left: 700px;
+        height: 400px;
+        padding-top: 0px;
+}
+
 .contenedor{ 
     display: flex;
     justify-content: center ;
@@ -187,6 +261,7 @@ label {
 
 .boton:hover {
     background-color: red; 
+    background-image: url(../img/peligro.jfif);
 } 
 
 .lex {

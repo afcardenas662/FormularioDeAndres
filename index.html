@@ -3,151 +3,157 @@
     <meta charset="UTF-8">  
     <title>Formulario </title>
     <link rel="stylesheet" type="text/css" href= "Assets/css/estilos2.css">
-    
+    <script type="text/javascript" src="../FormularioDeAndres-master/Assets/js/index.js"></script>
     <title>Formulario</title>
 </head>
-<body>
 
-    <div>
-        <div class="baner"> 
-            <h1 class="titulobaner"> <center> Registro estudiante SENA</center> </h1> 
-
-        </div>
-    </div>
-    <div class="parte2">
-        <div class="partenombre">
-          
-            <div class="nombre">
-                <h1>Ingrese sus nombres</h1>
-
-                
-            </div>
+<body >
     
+    
+    <form action="" name="from">
+        <div>
+            <div class="baner"> 
+                <h1 class="titulobaner"> <center> Registro estudiante SENA</center> </h1> 
 
-             
-            <div class="cuadronombre">
-                
-                    
-                <input type="text" name="nombre_estudiante"  placeholder="Aqui su nombre" >
-                
             </div>
-                
-           
+        </div>
+        <div class="parte2">
+            <div class="partenombre">
+            
+                <div class="nombre">
+                    <h1>Ingrese sus nombres</h1>
 
+                    
+                </div>
+        
+
+                
+                <div class="cuadronombre">
+                    
+                        
+                    <input type="text" name="nombre_estudiante"  placeholder="Aqui su nombre" >
+                    
+                </div>
+                    
+            
+
+
+                
+            </div>   
 
             
-        </div>   
+            <div class="parteapellido">
+                
+                <div class="apellido">
+                    <h1>
+                        Ingrese sus apellidos
+                    </h1>
+                </div>
+
+                <div>
+                    <section class="cuadroapellido" >
+                        <input type="text" name="apellido_estudiante" placeholder="Aqui su apellido">
+                    </section>
+                </div>
+            </div>
+
+            
+            
+            
 
         
-        <div class="parteapellido">
+
+        </div>
+
+        <div class="parte3">
+            <div class="titulo">
+                <h1 class="titulotexto"> Seleccione su tipo de documento </h1>
             
-            <div class="apellido">
+
+            </div>
+
+            <div class="cuadros">
+
+            
+
+                <div class="cuadrocedula">
+                    <input type="checkbox" name="cédula">
+                    <label for="cédula"> Cédula </label>
+                </div>
+
+                <div class="cuadroextranjeria">
+                    <input type="checkbox" name="extranjeria">
+                    <label for="extranjeria"> Cédula de extranjeria </label>
+                </div>
+
+                <div class="cuadroidentidad">
+                    <input type="checkbox" name="identidad">
+                    <label for="identidad"> Tarjeta de identidad </label>
+                </div>
+
+                <div class="cuadropasaporte">
+                    <input type="checkbox" name="pasaporte">
+                    <label for="pasaporte"> Pasaporte </label>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="numeroi">
+            <div class="titulonumeroi">
+                <h1>Ingrese su número de identificación</h1>
+
+            </div>
+            <div class="cajanumeroi">
+                <input type="text" name="identificacion" placeholder="Aqui su número de identificación">
+
+
+            </div>
+
+        </div>
+
+        <div class="correo">
+                
+            <div class="tcorreo">
                 <h1>
-                    Ingrese sus apellidos
+                    Ingrese su correo
                 </h1>
             </div>
 
-            <div>
-                <section class="cuadroapellido" >
-                    <input type="text" name="apellido_estudiante" placeholder="Aqui su apellido">
-                </section>
-            </div>
-        </div>
-
-        
-        
-        
-
-       
-
-    </div>
-
-    <div class="parte3">
-        <div class="titulo">
-            <h1 class="titulotexto"> Seleccione su tipo de documento </h1>
-        
-
-        </div>
-
-        <div class="cuadros">
-
-        
-
-            <div class="cuadrocedula">
-                <input type="checkbox" name="cédula">
-                <label for="cédula"> Cédula </label>
-            </div>
-
-            <div class="cuadroextranjeria">
-                <input type="checkbox" name="extranjeria">
-                <label for="extranjeria"> Cédula de extranjeria </label>
-            </div>
-
-            <div class="cuadroidentidad">
-                <input type="checkbox" name="identidad">
-                <label for="identidad"> Tarjeta de identidad </label>
-            </div>
-
-            <div class="cuadropasaporte">
-                <input type="checkbox" name="pasaporte">
-                <label for="pasaporte"> Pasaporte </label>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="numeroi">
-        <div class="titulonumeroi">
-            <h1>Ingrese su número de identificación</h1>
-
-        </div>
-        <div class="cajanumeroi">
-            <input type="text" name="identificacion" placeholder="Aqui su número de identificación">
-
-
-        </div>
-
-    </div>
-
-    <div class="correo">
+            <div class="ccorreo">
             
-        <div class="tcorreo">
-            <h1>
-                Ingrese su correo
-            </h1>
+                    <input type="text" name="correo" placeholder="Aqui su correo">
+                
+            </div>
         </div>
 
-        <div class="ccorreo">
-           
-                <input type="text" name="correo" placeholder="Aqui su correo">
+        <div class="comentario">
+                
+            <div class="tcomentario">
+                <h1>
+                    Algo que decir
+                </h1>
+            </div>
+
+            <div class="ccomentario">
             
-        </div>
-    </div>
+                    <input type="text" name="comentario" placeholder="Aqui su comentario">
+                
+            </div>
+        </div >
 
-    <div class="comentario">
+        <div class="contenedor">
             
-        <div class="tcomentario">
-            <h1>
-                Algo que decir
-            </h1>
+
+        
+            <div class="boton">
+               
+            <p class="lex">
+                <button type="button" onclick="getdata()"> Enviar</button>
+            </p>  
+            </div>
+
         </div>
-
-        <div class="ccomentario">
-           
-                <input type="text" name="comentario" placeholder="Aqui su comentario">
-            
-        </div>
-    </div >
-
-    <div class="contenedor">
-
-    
-        <div class="boton">
-        <p class="lex">
-            Enviar
-        </p>  
-        </div>
-
-    </div>
+    </form>
 </body>
 </html>
